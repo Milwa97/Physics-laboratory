@@ -1,0 +1,124 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4136,        116]
+NotebookOptionsPosition[      3721,        100]
+NotebookOutlinePosition[      4055,        115]
+CellTagsIndexPosition[      4012,        112]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Show", "[", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Graphics", "[", 
+     RowBox[{"{", 
+      RowBox[{"LightPurple", ",", 
+       RowBox[{"EdgeForm", "[", 
+        RowBox[{"{", 
+         RowBox[{"Thick", ",", "Black"}], "}"}], "]"}], ",", 
+       RowBox[{"Rectangle", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"4", ",", "4"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"6", ",", "6"}], "}"}]}], "]"}], ","}], 
+      "\[IndentingNewLine]", "   ", "}"}], " ", "]"}], ",", " ", 
+    "\[IndentingNewLine]", "\[IndentingNewLine]", 
+    RowBox[{"Graphics", "[", 
+     RowBox[{"{", 
+      RowBox[{"LightPurple", ",", 
+       RowBox[{"EdgeForm", "[", 
+        RowBox[{"{", "Black", "}"}], "]"}], ",", 
+       RowBox[{"Rectangle", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"4.75", ",", "4.25"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"5.25", ",", "4.5"}], "}"}]}], "]"}], ",", 
+       "\[IndentingNewLine]", " ", "Black", ",", " ", 
+       RowBox[{"Text", "[", 
+        RowBox[{"\"\<detektor\>\"", ",", 
+         RowBox[{"{", 
+          RowBox[{"2", ",", "9.75"}], "}"}]}], "]"}]}], "\[IndentingNewLine]",
+       "  ", "}"}], " ", "]"}], ",", "\[IndentingNewLine]", " ", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Graphics", "[", 
+     RowBox[{"{", " ", 
+      RowBox[{
+       RowBox[{"Line", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"5", ",", "4"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"5", ",", "4.25"}], "}"}]}], "}"}], "]"}], ",", "   ", 
+       RowBox[{"Line", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", "4.25"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"10", ",", "4.25"}], "}"}]}], "}"}], "]"}]}], "    ", 
+      "}"}], "]"}], ",", " ", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+    RowBox[{"Frame", " ", "->", " ", "True"}]}], "\[IndentingNewLine]", "]"}],
+   "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.750573302082039*^9, 3.7505733371989326`*^9}, {
+  3.7505733715854683`*^9, 3.7505734857505198`*^9}, {3.750573523839113*^9, 
+  3.750573813119112*^9}},
+ CellLabel->"In[22]:=",ExpressionUUID->"da663ec1-7e4c-44a1-8401-5b9408c41738"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0.94, 0.88, 0.94], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
+    RectangleBox[{4, 4}, {6, 6}]}, 
+   {RGBColor[0.94, 0.88, 0.94], EdgeForm[GrayLevel[0]], 
+    RectangleBox[{4.75, 4.25}, {5.25, 4.5}], 
+    {GrayLevel[0], InsetBox["\<\"detektor\"\>", {2, 9.75}]}}, {
+    LineBox[{{5, 4}, {5, 4.25}}], LineBox[{{1, 4.25}, {10, 4.25}}]}},
+  Frame->True]], "Output",
+ CellChangeTimes->{
+  3.750573010506688*^9, {3.7505733193492403`*^9, 3.750573338431108*^9}, {
+   3.750573379607716*^9, 3.750573396089141*^9}, 3.750573486652444*^9, {
+   3.750573533135421*^9, 3.7505735979133883`*^9}, 3.750573642591134*^9, 
+   3.7505736746600857`*^9, {3.750573745919985*^9, 3.750573813750723*^9}},
+ CellLabel->"Out[22]=",ExpressionUUID->"07444cfa-1dec-4214-8dbf-6a31ad021d40"]
+}, Open  ]]
+},
+WindowSize->{808, 621},
+WindowMargins->{{Automatic, 267}, {6, Automatic}},
+FrontEndVersion->"11.3 for Linux x86 (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 2325, 59, 331, "Input",ExpressionUUID->"da663ec1-7e4c-44a1-8401-5b9408c41738"],
+Cell[2908, 83, 797, 14, 298, "Output",ExpressionUUID->"07444cfa-1dec-4214-8dbf-6a31ad021d40"]
+}, Open  ]]
+}
+]
+*)
+
