@@ -1,5 +1,4 @@
 # Physics-laboratory
-or how to make your life easier using vector graphics in lab reports
 
 Wolfram Mathematica code for making schemes, diagrams and simple graphics for my physics lablatory raports.
 
